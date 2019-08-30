@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+/*
+COLOR SCHEMA: #EEEFEA, #143156, #92938F, #778DA9, #E0E1DD
+*/
 
 html {
     background-color: #E0E1DD;
@@ -25,10 +28,11 @@ nav {
     left: 0;
     right: 0;
     z-index: 10;
+    height: 50px;
 }
 
 header {
-    padding: 9% 0;
+    padding-top: 45px;
     font-family: 'Dancing Script', cursive;
     font-size: larger;
 }
@@ -73,16 +77,65 @@ footer {
     text-align:left;
 }
 
+.contents {
+   display: inline-block;
+}
+
+#project-body {
+    float: left;
+    width: 55%;
+}
+
+#viewport {
+    float: right;
+}
+
+#email-form {
+    text-align: left;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit], input[type=reset] {
+    width: 45%;
+    background-color: #143156;
+    color: white;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #92938F;
+  }
+
 @media screen and (max-width: 420px){
     main {
         margin-left: 10px;
         margin-right: 10px;
     }
+    #viewport {
+        float: none;
+    }
+    #project-body {
+        float: none;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 320px){
     main {
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
