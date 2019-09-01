@@ -81,6 +81,10 @@ footer {
    display: inline-block;
 }
 
+.proj-img {
+    width: 40%;
+}
+
 #project-body {
     float: left;
     width: 55%;
@@ -92,6 +96,14 @@ footer {
 
 #email-form {
     text-align: left;
+}
+
+#link-desc {
+    display: none;
+    padding: 20px;
+}
+#github-repo:hover + #link-desc{
+    display: block;
 }
 
 input[type=text] {
@@ -131,11 +143,17 @@ input[type=submit], input[type=reset] {
         float: none;
         width: 100%;
     }
+    .proj-img {
+        width: 85%;
+    }
 }
 
 @media screen and (max-width: 320px){
     main {
         margin-left: 0px;
         margin-right: 0px;
+    }
+    .proj-img {
+        width: 85%;
     }
 }
