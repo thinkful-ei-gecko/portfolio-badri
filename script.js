@@ -34,6 +34,23 @@ function generateProjects() {
     <div id="link-desc">Link the the GitHub Repo</div>
     </p>
     <a href="https://thinkful-ei-gecko.github.io/badri-phoebe-day-5/" target="_blank"><img src="https://i.imgur.com/oHQWbuU.png" alt="An Image of the quiz app" class="proj-img"></a>
+    
+    <b> 2) Skateful </b> <br>
+    Skateful is a full stack web application. It was one of my first solo projects at Thinkful. <br>
+    Skateful was made using: <br> PERN Stack (Postgres, Express, React, and Node) <br>
+    <a id="github-repo" href="https://github.com/thinkful-ei-gecko/skateful" target="_blank"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" style="width: 45px;" alt="link to github repo" target="_blank"></a>
+    <div id="link-desc">Link the the GitHub Repo</div>
+    </p>
+    <a href="https://build.badri-narayan.now.sh" target="_blank"><img src="https://i.ibb.co/mRH24GX/Screen-Shot-2019-10-25-at-7-05-40-AM.png" alt="An Image of Skateful" class="proj-img"></a>
+    
+    <b> 3) Learn Spanish Medical Terms </b> <br>
+    Learn Spanish Medical Terms helps users do just that, using the spaced repetition learning method. This project was a collaboration between Laura Elias, Hubert Yang, and myself. <br>
+    Learn Spanish Medical Terms was made using: <br> PERN Stack (Postgres, Express, React, and Node) <br>
+    <a id="github-repo" href="https://github.com/thinkful-ei-gecko/Badri-Hubert-Lauara-client" target="_blank"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" style="width: 45px;" alt="link to github repo" target="_blank"></a>
+    <div id="link-desc">Link the the GitHub Repo</div>
+    </p>
+    <a href="https://github.com/thinkful-ei-gecko/Badri-Hubert-Lauara-client" target="_blank"><img src="https://i.imgur.com/1y1lInx.png" alt="An Image of Skateful" class="proj-img"></a>
+    
     `);
 }
 
