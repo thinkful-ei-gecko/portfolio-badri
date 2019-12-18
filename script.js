@@ -20,7 +20,6 @@ function generateAbout(){
 `);
 }
 
-generateAbout();
 
 function generateProjects() {
     $('.contents').empty();
@@ -52,11 +51,23 @@ function generateProjects() {
     <a id="github-repo" href="https://github.com/thinkful-ei-gecko/Badri-Hubert-Lauara-client" target="_blank"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" style="width: 45px;" alt="link to github repo" target="_blank"></a>
     <div id="link-desc">Link the the GitHub Repo</div>
     </p>
-    <a href="https://github.com/thinkful-ei-gecko/Badri-Hubert-Lauara-client" target="_blank"><img src="https://i.imgur.com/1y1lInx.png" alt="An Image of Skateful" class="proj-img"></a>
+    <a href="https://spanishmedterms.ljelias.now.sh/" target="_blank"><img src="https://i.imgur.com/1y1lInx.png" alt="An Image of Skateful" class="proj-img"></a>
+    </p>
+
+    <p class="body-par" id="project-body">
+    <b> 4) BreadCrumbs </b> <br>
+    Learn Spanish Medical Terms helps users do just that, using the spaced repetition learning method. This project was a collaboration between Laura Elias, Hubert Yang, and myself. <br>
+    BreadCrumbs was made using: <br> PERN Stack (Postgres, Express, React, and Node) <br>
+    <a id="github-repo" href="https://github.com/thinkful-ei-gecko/BreadCrumbs-Client" target="_blank"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" style="width: 45px;" alt="link to github repo" target="_blank"></a>
+    <div id="link-desc">Link the the GitHub Repo</div>
+    </p>
+    <a href="https://breadcrumbs.now.sh/" target="_blank"><img src="https://user-images.githubusercontent.com/25930687/70808522-c0dab200-1db7-11ea-8f8d-7cc082c04500.PNG" alt="An Image of BreadCrumbs" class="proj-img"></a>
     </p>
     
     `);
 }
+
+generateProjects();
 
 function generateContact(){
     $('.contents').empty();
