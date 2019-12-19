@@ -3,9 +3,10 @@
 function generateAbout(){
     $('.contents').empty();
     $('.contents').html(`<h2>Hi, I’m Badri and I’m a software engineer.</h2>
+    <div class='about-me'>
     <img class='headshot' src='https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/49436022_10213217100397190_7081576007886438400_o.jpg?_nc_cat=101&_nc_ohc=HGpQLd5YZnoAQm8ASJK6N1_aJN2aFliqTPZJ4zj1ZCtMnhN-VdzNDLhGA&_nc_ht=scontent-lax3-1.xx&oh=19f79cdc875ad340ec6df9deaacf7b15&oe=5E77C440' alt='picture of me' />
     <p class="body-par">
-        I am a software engineer currently enrolled in Thinkful’s Engineering Immersion bootcamp. 
+        I am a software engineer from Los Angeles, CA. I build full-stack mobile-first web applications using the PERN stack.
     I love coding because of the feeling you get when you finally get your code to work the way 
     it should after hours of working at it. It’s a lot like skateboarding to me-- you can try
     to land a kickflip for hours and hours, falling down and messing up along the way, but that 
@@ -13,11 +14,12 @@ function generateAbout(){
 
     I geek out on anything tech. I fancy finding out about how things do the things they do. I am 
     becoming increasingly interested in the capabilities of AI and Machine Learning and have an 
-    interest in Blockchains and cryptocurrencies as well. 
+    interest in Blockchains and cryptocurrencies as well. I am currently looking to improve my skills in Python, C#, and Unity. I also am looking into building with React Native and React Native Web.
 
     When I’m not at home on my computer, I’m usually at the beach, skating, swimming, or surfing.
     I like to try to stay as active as possible and always keep moving.
     </p>
+    </div>
 `);
 }
 

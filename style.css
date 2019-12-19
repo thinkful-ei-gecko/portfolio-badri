@@ -57,6 +57,10 @@ footer {
     margin-top: 5px;
 }
 
+.about-me {
+  display: flex;
+}
+
 .nav-butt {
     background-color: rgba(255, 255, 255, 0.0);
     border: none;
@@ -72,8 +76,8 @@ footer {
 
 .headshot {
   border-radius: 5%;
-  width: 300px;
-  height: relative;
+  width: relative;
+  height: 400px;
 }
 
 #copyright {
@@ -82,6 +86,7 @@ footer {
 
 .body-par {
     text-align:left;
+    padding-left: 20px;
 }
 
 .contents {
@@ -144,6 +149,9 @@ input[type=submit], input[type=reset] {
   }
 
 @media screen and (max-width: 720px){
+  .about-me {
+    display: block;
+  }
     main {
         margin-left: 10px;
         margin-right: 10px;
