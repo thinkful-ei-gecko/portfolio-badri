@@ -10,7 +10,7 @@ function generateAbout(){
     I love coding because of the feeling you get when you finally get your code to work the way 
     it should after hours of working at it. It’s a lot like skateboarding to me-- you can try
     to land a kickflip for hours and hours, falling down and messing up along the way, but that 
-    feeling you get when you land your trick, super dope. 
+    feeling you get when you land your trick, super cool. 
 
     I geek out on anything tech. I fancy finding out about how things do the things they do. I am 
     becoming increasingly interested in the capabilities of AI and Machine Learning and have an 
